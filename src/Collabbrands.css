@@ -1,0 +1,68 @@
+.maindivbrand{
+      background-color: black;
+}
+
+.firstdivbrand{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 2% 5% 2% 5%;
+      width: 90%;
+}
+.p1brand{
+      color: #ffffff;
+      font-size: 24px;
+      line-height: 36px;
+      font-weight: 600;
+}
+.p2brand{
+      color: #e8e6e3;
+      font-size: 18px;
+      line-height: 26px;
+      font-weight: 500;
+}
+
+.brandcontainer{
+      display: flex;
+      overflow: hidden;
+      
+      height: 95px;
+      animation: moveLeft 4s ease-in-out;
+      
+}
+
+.brandname{
+      border: 2px solid red;
+      width: 196px;
+      height: 60px;
+      margin: 10px;
+      align-items: center;
+      justify-content: center;
+      
+
+}
+
+@keyframes moveLeft {
+  0% { transform: translateX(100%); }
+  25%{
+      transform: translateX(100%);
+  }
+  50%{
+      transform: translateX(100%);
+  }
+  75%{
+      transform: translateX(100%);
+  }
+  
+  100% { transform: translateX(-100%); }
+}
+
+.animebrands{
+      width: 80%;
+      padding: 2% 5% 2% 5%;
+
+}
+
+
+
